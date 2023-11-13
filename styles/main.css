@@ -1,0 +1,165 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 80px;
+}
+
+.image {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+header .nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header .nav-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .logo {
+  width: 104px;
+}
+
+header .list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header .item {
+  display: inline;
+}
+
+header .nav-right {
+}
+
+header .banner {
+  display: flex;
+  padding: 40px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .banner-left {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+header .banner-right {
+  display: flex;
+  width: 60%;
+}
+
+/* tablet devices */
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    margin: 0 40px;
+  }
+
+  header .list {
+    display: none;
+  }
+
+  header .nav-right {
+    display: none;
+  }
+
+  header .banner {
+    padding: 20px;
+  }
+
+  header .banner-left {
+    width: 50%;
+  }
+
+  header .banner-right {
+    width: 50%;
+  }
+}
+
+/* Mobile devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    margin: 0 10px;
+  }
+
+  header .banner {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .banner-left {
+    width: 100%;
+    align-items: center;
+  }
+
+  header .banner-right {
+    width: 100%;
+  }
+}
+
+main {
+  padding: 80px 0;
+}
+
+main .posttion {
+  position: relative;
+  height: 100px;
+}
+
+main .item1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: black;
+  z-index: 1;
+}
+
+main .item2 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  z-index: 2;
+}
+
+main .item3 {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  z-index: 3;
+}
