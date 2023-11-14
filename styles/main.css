@@ -102,7 +102,7 @@ header .banner-right {
 /* Mobile devices */
 @media (min-width: 320px) and (max-width: 480px) {
   .container {
-    margin: 0 10px;
+    margin: 0 80px;
   }
 
   header .banner {
@@ -124,42 +124,89 @@ header .banner-right {
 }
 
 main {
-  padding: 80px 0;
+  margin: 0 80px;
 }
 
-main .posttion {
-  position: relative;
-  height: 100px;
+
+main section{
+  padding: 79px 298px 48px 299px;
+  text-align: center  ;
+}  
+
+main h3.title {
+  color: #121722;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 116.667% */
 }
 
-main .item1 {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100px;
-  height: 100px;
-
-  background-color: black;
-  z-index: 1;
+main span.title {
+  color: rgba(18, 23, 34, 0.70);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 152.381% */
 }
 
-main .item2 {
-  position: absolute;
-  top: 0;
-  left: 20px;
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  z-index: 2;
+main .intro {
+  display: flex;
+  border-radius: 16px;
+  padding: 0 80px;
+  background: #4058FF;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
 }
 
-main .item3 {
-  position: absolute;
-  top: 0;
-  left: 40px;
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  z-index: 3;
+main .intro-left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 48px ;
+  
 }
+
+main h2.title {
+  color: #FFF;
+  font-family: Roboro;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 111.765% */
+}
+
+main span.text {
+  color: #E8F1FF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px; /* 145% */
+}
+
+main .intro-right {
+  width: 100%;
+}
+
+main .image1 {
+  /* position: absolute; */
+  top: 0px;
+  width: 50%;
+  padding: 80px 23px 80px 475px;
+  /* z-index: 1;*/
+}
+
+main .image2 {
+  /* position: absolute; */
+  width: 40%;
+  flex-shrink: 0;
+  padding: 78px 32px 18px 17px;
+  /* z-index: 2; */
+}
+
+
