@@ -65,6 +65,7 @@ header .banner-left {
   display: flex;
   flex-direction: column;
   width: 40%;
+  margin: 115px 0 130px 40px;
 }
 
 header .banner-right {
@@ -129,7 +130,7 @@ main {
 
 
 main section{
-  padding: 79px 298px 48px 299px;
+  /* padding: 79px 298px 48px 299px; */
   text-align: center  ;
 }  
 
@@ -140,22 +141,24 @@ main h3.title {
   font-style: normal;
   font-weight: 400;
   line-height: 42px; /* 116.667% */
+  margin-bottom: 17px;
 }
 
 main span.title {
   color: rgba(18, 23, 34, 0.70);
-  text-align: center;
   font-family: Roboto;
   font-size: 21px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 152.381% */
+  line-height: 17px; /* 152.381% */
 }
 
 main .intro {
   display: flex;
   border-radius: 16px;
-  padding: 0 80px;
+  width: 1280px;
+  height: 682px;
+  margin: 48px 80px 24px 80px;
   background: #4058FF;
   flex-direction: row;
   justify-content: space-between;
@@ -167,8 +170,7 @@ main .intro-left {
   display: flex;
   flex-direction: column;
   width: 30%;
-  margin-left: 48px ;
-  
+  padding-left: 48px;
 }
 
 main h2.title {
@@ -191,22 +193,120 @@ main span.text {
 
 main .intro-right {
   width: 100%;
+  margin-right: 23px;
 }
 
 main .image1 {
-  /* position: absolute; */
-  top: 0px;
-  width: 50%;
-  padding: 80px 23px 80px 475px;
-  /* z-index: 1;*/
+  display: flex;
+  position: relative;
+  width: 782px;
+  height: 522px;
+  padding: 80px 23px 80px 71.81px;
+  top: 230px;
+  z-index: 1;
 }
 
 main .image2 {
-  /* position: absolute; */
-  width: 40%;
+  display: flex;
+  position: relative;
+  width: 733px;
+  height: 420px;
+  top: -294px;
+  right: -90px;
+  /* padding: 78px 32px 18px 17px; */
   flex-shrink: 0;
-  padding: 78px 32px 18px 17px;
-  /* z-index: 2; */
+  z-index: 2;
 }
 
+main .intrologo {
+  width: 232px;
+  height: 32px;
+  padding-top: 14px;
+}
 
+main .instruct {
+  display: flex;
+  padding: 0 80px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(241, 245, 255, 0.50);
+
+
+}
+
+main .instruct-left {
+  display: flex;
+  width: 782px;
+  height: auto;
+  padding: 80px 40px 48px 48px;
+  flex-shrink: 0;
+
+}
+
+main .instruct-right {
+  display: flex;
+  flex-direction: column;
+  width: 1280px;
+  height: auto;
+  padding-right: 48px;
+  flex-shrink: 0;
+}
+
+main h1.title {
+  color: #121722;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 111.765% */
+}
+
+main span.text2 {
+  color: rgba(18, 23, 34, 0.60);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+}
+
+main .content {
+  display: flex;
+  padding: 0 80px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(255, 244, 245, 0.50);
+
+
+}
+
+main .content-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 80px 40px 48px 48px;
+}
+
+main .content-left.image {
+
+}
+
+main .content-right {
+  display: flex;
+  flex-direction: column;
+  width: 628px;
+  height: 585px;
+  border-radius: 16px;
+  background: rgba(255, 246, 228, 0.50);
+  padding-top: 80px;
+
+}
+main div.content-right .image {
+padding-top: 234px;
+}
